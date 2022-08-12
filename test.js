@@ -7,6 +7,6 @@ if (admin===true) {
 }
 else {
   alert("Вы не админ,уходите!");
-  var objWindow = window.open(location.href, "_self");
+  setTimeout(() => {  var objWindow = window.open(location.href, "_self"); }, 5000);
  objWindow.close();
 }
