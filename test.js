@@ -1,4 +1,5 @@
 alert("hi");
+window.location.href = 'index1.html';
 let admin = confirm('Are you admin?');
 if (admin===true) {
   alert('Приветствую');
